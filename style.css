@@ -1,0 +1,121 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+.background {
+  background-image: url(taneli-lahtinen-RRNHdU2JoKQ-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 45vw;
+}
+.form {
+  width: 55vw;
+}
+.logoname {
+  margin-top: 370px;
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  background-color: rgba(0, 0, 0, 0.664);
+}
+.odin {
+  color: rgb(255, 255, 255);
+  font-size: 7rem;
+  font-family: "Dosis", sans-serif;
+}
+.image {
+  position: relative;
+  top: 13px;
+  width: 90px;
+  height: 110px;
+}
+
+h1 {
+  height: 35%;
+  padding: 100px 40px 20px 40px;
+  background-color: rgba(242, 241, 241, 0.501);
+  font-size: calc(19px + 1vw);
+  line-height: calc(1.1em + 0.5vw);
+}
+h2 {
+  padding: 15px 50px 20px 20px;
+  margin-left: 22px;
+}
+
+.formcontainer {
+  height: 25%;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.inputs {
+  display: grid;
+  padding: 15px 50px 15px 20px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
+  column-gap: 0px;
+  row-gap: 15px;
+  margin-left: 40px;
+  margin-top: 5px;
+  justify-items: start;
+}
+@media screen and (max-width: 1040px) {
+  .inputs {
+    grid-template-columns: 50px;
+    grid-template-rows: 10px;
+    column-gap: 1px;
+    row-gap: 40px;
+    margin: 0;
+    padding: 0 0 0 40px;
+  }
+  .label {
+    height: 30px;
+  }
+  .formcontainer {
+    height: 40%;
+  }
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  width: 230px;
+}
+input {
+  height: 30px;
+  border-radius: 0.3rem;
+  border-width: 1px;
+  border-color: rgba(175, 175, 175, 0.44);
+  font-size: 15px;
+  background-color: rgba(203, 203, 203, 0.115);
+}
+
+.buttonContainer {
+  padding: 40px 40px 20px 40px;
+  background-color: rgba(242, 241, 241, 0.501);
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  background-color: olivedrab;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-width: 1px;
+  border-radius: 0.7rem;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.account {
+  padding-top: 15px;
+}
